@@ -1,0 +1,18 @@
+CREATE DATABASE hw_29_09_2021;
+
+CREATE TABLE magica (
+    magica_no integer,
+    magica_comb text,
+    magica_name text
+);
+
+INSERT INTO magica VALUES (1, 'ASF', 'Спешка');
+INSERT INTO magica VALUES (2, 'RE', 'Замедление времени');
+INSERT INTO magica VALUES (3, 'QFQ', 'Дождь');
+INSERT INTO magica VALUES (4, 'QFFQFFQFF', 'Волна огня');
+INSERT INTO magica VALUES (5, 'QFDFDQF', 'Метеоритный дождь');
+INSERT INTO magica VALUES (6, 'AAFW', 'Вылет на рабочий стол');
+INSERT INTO magica VALUES (7, 'SE', 'Отмена');
+INSERT INTO magica VALUES (8, 'ASA', 'Телепорт');
+INSERT INTO magica VALUES (9, 'WAF', 'Призыв феникса');
+INSERT INTO magica VALUES (10, 'WFASA', 'Удар молнии');
