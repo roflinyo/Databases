@@ -1,0 +1,11 @@
+select * from flights where (departure_airport = 'KZN' and arrival_airport = 'MQF')
+
+
+select * from flights where (departure_airport = 'SVO' or 
+departure_airport = 'VKO' or departure_airport = 'DME') and 
+scheduled_departure::text like '%:25:%';
+
+
+select * from flights, airports_data where 
+flights.departure_airport = airports_data.airport_code and 
+airports_data.timezone = 'Europe/Moscow'
